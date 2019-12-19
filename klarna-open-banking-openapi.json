@@ -1,0 +1,184 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0",
+        "title": "Klarna Open Banking",
+        "description": "TODO: Add Description",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "http:\/\/api.klarna.com"
+    ],
+    "paths": {
+        "\/xs2a\/v1\/sessions": {
+            "put": {
+                "summary": "\/xs2a\/v1\/sessions",
+                "description": "\/xs2a\/v1\/sessions",
+                "operationId": "\/xs2a\/v1\/sessions",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": ""
+                    }
+                }
+            }
+        },
+        "\/": {
+            "put": {
+                "summary": "\/xs2a\/v1\/flows\/accounts",
+                "description": "TODO: Add Description",
+                "operationId": "\/xs2a\/v1\/flows\/accounts",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": ""
+                    }
+                }
+            },
+            "get": {
+                "summary": "\/xs2a\/v1\/flows\/ID",
+                "description": "TODO: Add Description",
+                "operationId": "\/xs2a\/v1\/flows\/id",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": ""
+                    }
+                }
+            },
+            "delete": {
+                "summary": "\/xs2a\/v1\/flows\/ID",
+                "description": "TODO: Add Description",
+                "operationId": "\/xs2a\/v1\/flows\/id1",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": ""
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "\/xs2a\/v1\/sessionsTestbankRequest": {
+                "type": "object",
+                "properties": {
+                    "selected_bank": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "selected_bank": {
+                "type": "object"
+            },
+            "SelectedBank": {
+                "type": "object",
+                "properties": {
+                    "bank_code": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "country_code": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "\/xs2a\/v1\/flows\/account_details_request": {
+                "type": "object",
+                "properties": {
+                    "iban": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "\/xs2a\/v1\/flows\/transactionsrequest": {
+                "type": "object",
+                "properties": {
+                    "iban": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "from_date": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "to_date": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "type": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "\/xs2a\/v1\/flows\/transferrequest": {
+                "type": "object",
+                "properties": {
+                    "amount": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "preferred_date": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "reference": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "to": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "type": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "transfer_method": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "amount": {
+                "type": "object",
+                "properties": {
+                    "amount": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "currency": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "to": {
+                "type": "object",
+                "properties": {
+                    "holder_name": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "iban": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "bic": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    }
+}
