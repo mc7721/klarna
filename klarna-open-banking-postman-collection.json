@@ -1,0 +1,105 @@
+{
+    "id": "f993bde2549f04b4e68a63309276a05d",
+    "name": "Klarna Open Banking",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "349ee4e378c6ebbac89f35bdea668869",
+            "name": "\/xs2a\/v1\/sessions",
+            "url": "http:\/\/api.klarna.com\/xs2a\/v1\/sessions",
+            "description": "\/xs2a\/v1\/sessions",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "f993bde2549f04b4e68a63309276a05d",
+            "rawModeData": ""
+        },
+        {
+            "id": "44c8711a37320d9de974aaa87db315ca",
+            "name": "\/xs2a\/v1\/flows\/accounts",
+            "url": "http:\/\/api.klarna.com\/",
+            "description": "TODO: Add Description",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "f993bde2549f04b4e68a63309276a05d",
+            "rawModeData": ""
+        },
+        {
+            "id": "393825dd09cf9e8dc5b4cb29c55e369d",
+            "name": "\/xs2a\/v1\/flows\/ID",
+            "url": "http:\/\/api.klarna.com\/",
+            "description": "TODO: Add Description",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "f993bde2549f04b4e68a63309276a05d",
+            "rawModeData": ""
+        },
+        {
+            "id": "6e9821e671c2bc0ae736c5190d6f5445",
+            "name": "\/xs2a\/v1\/flows\/ID",
+            "url": "http:\/\/api.klarna.com\/",
+            "description": "TODO: Add Description",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "f993bde2549f04b4e68a63309276a05d",
+            "rawModeData": ""
+        }
+    ]
+}
