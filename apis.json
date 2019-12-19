@@ -1,0 +1,98 @@
+{
+    "name": "Klarna",
+    "description": "<p>Klarna is a Swedish e-commerce company that provides payment services for online storefronts. Their core service is to assume stores' claims for payments and handle customer payments, thus eliminating the risk for seller and buyer.<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/Klarna-Logo.png",
+    "tags": [
+        "api provider",
+        "have api",
+        "have openapi",
+        "payments"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/klarna\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Klarna Open Banking",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/Klarna-Logo.png",
+            "humanURL": "https:\/\/www.klarna.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/klarna-open-banking-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/klarna-open-banking.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Website",
+            "url": "https:\/\/www.klarna.com"
+        },
+        {
+            "type": "Authentication",
+            "url": "https:\/\/developers.klarna.com\/api\/#authentication"
+        },
+        {
+            "type": "Blog",
+            "url": "http:\/\/checkoutblog.klarna.com\/"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "http:\/\/checkoutblog.klarna.com\/subscribe\/"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "http:\/\/engineering.klarna.com\/news\/feed\/"
+        },
+        {
+            "type": "Change Logs",
+            "url": "https:\/\/docs.openbanking.klarna.com\/CHANGELOG.html"
+        },
+        {
+            "type": "Deprecation Policy",
+            "url": "https:\/\/developers.klarna.com\/en\/policies\/deprecation-policy"
+        },
+        {
+            "type": "Developers",
+            "url": "https:\/\/developers.klarna.com\/en"
+        },
+        {
+            "type": "Developers",
+            "url": "https:\/\/developers.klarna.com\/"
+        },
+        {
+            "type": "Documentation",
+            "url": "https:\/\/developers.klarna.com\/api\/"
+        },
+        {
+            "type": "Errors",
+            "url": "https:\/\/developers.klarna.com\/api\/#errors"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/klarna"
+        },
+        {
+            "type": "SDK",
+            "url": "https:\/\/developers.klarna.com\/resources\/sdk\/"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/Klarna"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/www.klarna.com\/us"
+        }
+    ]
+}
