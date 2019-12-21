@@ -1,5 +1,5 @@
 {
-    "id": "f993bde2549f04b4e68a63309276a05d",
+    "id": "3ac44a4c05c7376031bbe7108f1e44f1",
     "name": "Klarna Open Banking",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "349ee4e378c6ebbac89f35bdea668869",
+            "id": "b61190501fe8ca19eb64d1b8da8c6a06",
             "name": "\/xs2a\/v1\/sessions",
             "url": "http:\/\/api.klarna.com\/xs2a\/v1\/sessions",
             "description": "\/xs2a\/v1\/sessions",
@@ -29,11 +29,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "f993bde2549f04b4e68a63309276a05d",
+            "collectionId": "3ac44a4c05c7376031bbe7108f1e44f1",
             "rawModeData": ""
         },
         {
-            "id": "44c8711a37320d9de974aaa87db315ca",
+            "id": "e6c637c20a18d659f31355255b535578",
             "name": "\/xs2a\/v1\/flows\/accounts",
             "url": "http:\/\/api.klarna.com\/",
             "description": "TODO: Add Description",
@@ -52,11 +52,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "f993bde2549f04b4e68a63309276a05d",
+            "collectionId": "3ac44a4c05c7376031bbe7108f1e44f1",
             "rawModeData": ""
         },
         {
-            "id": "393825dd09cf9e8dc5b4cb29c55e369d",
+            "id": "ec0067d793e928f4da3d07515162a7be",
             "name": "\/xs2a\/v1\/flows\/ID",
             "url": "http:\/\/api.klarna.com\/",
             "description": "TODO: Add Description",
@@ -75,11 +75,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "f993bde2549f04b4e68a63309276a05d",
+            "collectionId": "3ac44a4c05c7376031bbe7108f1e44f1",
             "rawModeData": ""
         },
         {
-            "id": "6e9821e671c2bc0ae736c5190d6f5445",
+            "id": "4e0ec3a612b182db0b47c8487ab65c15",
             "name": "\/xs2a\/v1\/flows\/ID",
             "url": "http:\/\/api.klarna.com\/",
             "description": "TODO: Add Description",
@@ -98,7 +98,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "f993bde2549f04b4e68a63309276a05d",
+            "collectionId": "3ac44a4c05c7376031bbe7108f1e44f1",
             "rawModeData": ""
         }
     ]
